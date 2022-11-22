@@ -1,0 +1,19 @@
+server:
+  port: 8383
+  servlet:
+    context-path: /sekai-device-package-manager
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  main:
+    allow-bean-definition-overriding: true
+
+application:
+  cassandra:
+    keyspace: sekai
+    datacenter: dc1
+
+  

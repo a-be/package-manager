@@ -1,0 +1,1 @@
+CREATE KEYSPACE IF NOT EXISTS sekai WITH REPLICATION = { 'class' : 'NetworkTopologyStrategy', 'dc1' : 1 } AND DURABLE_WRITES = false;
